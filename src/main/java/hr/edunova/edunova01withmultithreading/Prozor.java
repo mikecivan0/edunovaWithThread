@@ -278,7 +278,7 @@ public class Prozor extends javax.swing.JFrame {
      private String srediIme(String s) {
         try {
             s = s.trim();
-            return s.substring(0, 1).toUpperCase() + s.substring(1).toLowerCase();
+            return s.substring(0, 1).toUpperCase() + s.substring(1);
         } catch (Exception e) {
             return s;
         }
